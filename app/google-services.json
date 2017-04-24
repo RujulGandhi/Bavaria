@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885958477968",
+    "project_id": "firebase-bavaria"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885958477968:android:891ee024419f00be",
+        "android_client_info": {
+          "package_name": "com.bavaria.group"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885958477968-e5hqnjdh4kvf83cu2o161c1rg67291lg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bavaria.group",
+            "certificate_hash": "6b1ed02c1f5c710b030ce4311a06efce9bb1ad2a"
+          }
+        },
+        {
+          "client_id": "885958477968-lrit5mtienbtr673u6bt1um9rh7uessv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc4LzyuhgTFBrN1mkMpi4g_7NX4LJWCSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_app_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivBack_PayOnlineActivity"
+            android:layout_width="@dimen/backbutton_height_width"
+            android:layout_height="@dimen/backbutton_height_width"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_button_selector" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bavaria_long_image_height"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:layout_marginRight="@dimen/default_padding"
+                    android:src="@drawable/ic_payonline_logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_padding"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <EditText
+                    android:id="@+id/etName_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:padding="@dimen/default_padding"
+                    android:singleLine="true"
+                    android:textSize="@dimen/default_text_size" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Phone No"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <EditText
+                    android:id="@+id/etPhoneNo_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Phone Number"
+                    android:inputType="number"
+                    android:padding="@dimen/default_padding"
+                    android:singleLine="true"
+                    android:textSize="@dimen/default_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <EditText
+                    android:id="@+id/etEmail_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/default_padding"
+                    android:singleLine="true"
+                    android:textSize="@dimen/default_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Civil ID"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <EditText
+                    android:id="@+id/etCivilId_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Civil ID"
+                    android:padding="@dimen/default_padding"
+                    android:singleLine="true"
+                    android:textSize="@dimen/default_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Project Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <Spinner
+                    android:id="@+id/spProjectName_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_border"
+                    android:padding="5dp"
+                    android:prompt="@string/prompt"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Building Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <Spinner
+                    android:id="@+id/spBuildingName_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_border"
+                    android:padding="5dp"
+                    android:prompt="@string/prompt"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Floor Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <Spinner
+                    android:id="@+id/spFloorName_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_border"
+                    android:padding="5dp"
+                    android:prompt="@string/prompt"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Flat Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <Spinner
+                    android:id="@+id/spFlatName_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_border"
+                    android:padding="5dp"
+                    android:prompt="@string/prompt"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="@dimen/default_padding"
+                    android:text="Amount Pay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/default_text_size" />
+
+                <EditText
+                    android:id="@+id/etAmountPay_PayOnlineActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Amount Pay"
+                    android:inputType="numberDecimal|number"
+                    android:padding="@dimen/default_padding"
+                    android:textSize="@dimen/default_text_size" />
+
+                <Button
+                    android:id="@+id/btPay_Payonline_Actiivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_selector"
+                    android:padding="@dimen/default_padding"
+                    android:text="Pay Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/default_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

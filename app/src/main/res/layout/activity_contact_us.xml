@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/ic_app_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBack_ContactUsActivity"
+                android:layout_width="@dimen/backbutton_height_width"
+                android:layout_height="@dimen/backbutton_height_width"
+                android:background="@drawable/back_button_selector"
+                android:layout_margin="5dp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Contact Us"
+            android:textColor="#FF0037"
+            android:textSize="@dimen/aboutus_title_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/ivInstagram_AboutusActivity"
+                android:layout_width="@dimen/contactus_image_size"
+                android:layout_height="@dimen/contactus_image_size"
+                android:layout_weight="1"
+                android:src="@drawable/ic_instagram" />
+
+            <ImageView
+                android:id="@+id/ivTwiiter_AboutusActivity"
+                android:layout_width="@dimen/contactus_image_size"
+                android:layout_height="@dimen/contactus_image_size"
+                android:layout_weight="1"
+
+                android:src="@drawable/ic_twiter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/ivYouTube_AboutusActivity"
+                android:layout_width="@dimen/contactus_image_size"
+                android:layout_height="@dimen/contactus_image_size"
+                android:layout_weight="1"
+                android:src="@drawable/ic_you_tube" />
+
+            <ImageView
+                android:id="@+id/ivFacebook_AboutusActivity"
+                android:layout_width="@dimen/contactus_image_size"
+                android:layout_height="@dimen/contactus_image_size"
+                android:layout_weight="1"
+                android:src="@drawable/ic_facebook" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/press_selector"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <ImageView
+                android:layout_width="@dimen/small_icon_contactus"
+                android:layout_height="@dimen/small_icon_contactus"
+                android:src="@drawable/ic_chat" />
+            <TextView
+                android:id="@+id/activity_contactup_live_chat_Txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="2"
+                android:text="Live Chat"
+                android:textColor="#000000"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="@dimen/small_icon_contactus"
+                android:layout_height="@dimen/small_icon_contactus"
+                android:src="@drawable/ic_call1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:text="+965-22942655"
+                android:textColor="#FF0037"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:text="Email"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/activity_contactup_email_Txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:singleLine="true"
+                android:text="support@bavariyagroup.net"
+                android:textColor="#000000"
+                android:textSize="@dimen/default_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:text="Website"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/activity_contactup_website_Txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:singleLine="true"
+                android:text="www.bavariyagroup.net"
+                android:textColor="#000000"
+                android:textSize="@dimen/default_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/map_fragment_small_height" />
+            <FrameLayout
+                android:id="@+id/flMapView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/map_fragment_big_height"
+                android:visibility="gone">
+                <fragment
+                    android:id="@+id/mapZoom"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/ivCloseContactus"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right|end|top"
+                    android:background="@drawable/ic_close" />
+            </FrameLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_sharelocation"
+                android:text="@string/sharelocation"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:text="Address"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:text="25 February Tower, 20th Floor,Khalid Bin Waleed St.Kuwait"
+                android:textColor="#000000"
+                android:textSize="@dimen/default_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnappstoreapple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/app_store_apple"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btngoogleplaystore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:background="@drawable/app_store_google"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

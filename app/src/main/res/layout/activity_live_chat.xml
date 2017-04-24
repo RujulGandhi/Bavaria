@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_app_bg"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/vwlivechat"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivBack_LivechatActivity"
+            android:layout_width="@dimen/backbutton_height_width"
+            android:layout_height="@dimen/backbutton_height_width"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_button_selector" />
+    </FrameLayout>
+</RelativeLayout>

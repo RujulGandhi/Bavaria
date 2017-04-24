@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bavaria Group</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="crash_toast_text">Hi</string>
+    <string name="about_us1">Bavaria Group is the first and original Real Estate company selling and managing apartments in exclusive residential areas in Kuwait.</string>
+    <string name="about_us2">Bavaria Group Real Estate has been in the business for over 8 years and is well known in the real estate industry for housing employees of many large western companies in Kuwait. Bavaria Group Real Estate\'s name has been established through the continued trust of our clients who have been with us since 2005. Our commitment is to give our customers an unmatched level of service.</string>
+    <string name="title_aboutus">Bavaria Group</string>
+    <string name="share_build">Build your own app without Programing on \n www.appmachine.com</string>
+    <string name="prompt">Make your selection... </string>
+
+    <string name="facebook_app_id">1340644245951141</string>
+    <string name="sharelocation">Share Location</string>
+</resources>

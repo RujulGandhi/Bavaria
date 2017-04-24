@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/item_flat_list_ripple"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/flat_image_height"
+        app:mrl_rippleColor="@color/colorPrimaryDark"
+        app:mrl_rippleOverlay="true">
+
+        <ImageView
+            android:id="@+id/ivFlatPic_FlatDetailsActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/default_img" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_view_divider_height"
+        android:background="@color/gray"/>
+</LinearLayout>

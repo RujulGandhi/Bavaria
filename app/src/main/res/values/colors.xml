@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#42ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_new">#e0ebe8</color>
+    <color name="red">#F5554A</color>
+    <color name="transprentBlack">#698F8F8F</color>
+    <color name="transprentBlackwhite">#668F8F8F</color>
+    <color name="black">#000000</color>
+    <color name="orange">#ebae5e</color>
+    <color name="orange_alpha">#CCE69A37</color>
+    <color name="Coffee">#93766c</color>
+    <color name="dark_grey">#7f97a2</color>
+    <color name="dark_green">#495c32</color>
+    <color name="sky">#4cc1d0</color>
+    <color name="sky_alpha">#CC00A7BD</color>
+    <color name="light_sky">#00C9E3</color>
+    <color name="light_sky_alpha">#CC00C9E3</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="parrot_alpha">#CC76A63F</color>
+    <color name="parrot">#76A63F</color>
+    <color name="light_pink">#F0C2C2</color>
+    <color name="red_gmail">#D32F2F</color>
+    <color name="alpha_light_pink">#CCF0C2C2</color>
+    <color name="alpha_dark_grey">#CC607D8B</color>
+    <color name="alpha_light_grey">#CCD4DCE0</color>
+    <color name="light_grey">#D4DCE0</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="blue">#00ACEE</color>
+    <color name="blue_transperent">#8000ACEE</color>
+    <color name="blue_dark">#00008e</color>
+    <color name="facebook_blue">#3D5A98</color>
+    <color name="yellow">#fabe66</color>
+    <color name="twitter_blue">#00ACEE</color>
+    <color name="yellowbtn">#FFFF1C</color>
+    <color name="transperant_white">#80ffffff</color>
+    <color name="transperant_black">#80000000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue_top">#0000FF</color>
+    <color name="red_box">#FF0000</color>
+
+</resources>

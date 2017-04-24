@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/ic_app_bg"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivBack_AboutusActivity"
+            android:layout_width="@dimen/backbutton_height_width"
+            android:layout_height="@dimen/backbutton_height_width"
+            android:padding="5dp"
+            android:background="@drawable/back_button_selector" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="@dimen/square_logo_bavaria_width"
+            android:layout_height="@dimen/square_logo_bavaria_height"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_main_logo"/>
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/aboutus_title_text_size"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="@string/title_aboutus"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/default_text_size"
+        android:padding="@dimen/default_padding"
+        android:text="@string/about_us1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:padding="@dimen/default_padding"
+        android:textSize="@dimen/default_text_size"
+        android:text="@string/about_us2"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

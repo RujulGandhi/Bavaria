@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="square_logo_bavaria_width">250dp</dimen>
+    <dimen name="square_logo_bavaria_height">150dp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_padding">5dp</dimen>
+    <dimen name="aboutus_title_text_size">30sp</dimen>
+    <dimen name="backbutton_height_width">30dp</dimen>
+    <dimen name="contactus_image_size">80dp</dimen>
+    <dimen name="small_icon_contactus">40dp</dimen>
+    <dimen name="map_fragment_small_height">200dp</dimen>
+    <dimen name="map_fragment_big_height">300dp</dimen>
+    <dimen name="login_logo_height_width">50dp</dimen>
+    <dimen name="main_screen_menu_icon_size">50dp</dimen>
+    <dimen name="login_button_height">30dp</dimen>
+    <dimen name="contactus_main_button_width">120dp</dimen>
+    <dimen name="contactus_main_button_height">32dp</dimen>
+    <dimen name="bavaria_long_image_height">100dp</dimen>
+    <dimen name="list_item_icon_size">30dp</dimen>
+    <dimen name="grid_colum_width">150dp</dimen>
+    <dimen name="details_image_height">180dp</dimen>
+    <dimen name="share_button_width">275dp</dimen>
+    <dimen name="webview_video_screen_height">220dp</dimen>
+    <dimen name="loader_icon_size">50dp</dimen>
+    <dimen name="projectlist_item_icon_size">80dp</dimen>
+    <dimen name="right_item_arrow">30dp</dimen>
+    <dimen name="flat_image_height">230dp</dimen>
+    <dimen name="item_view_divider_height">30dp</dimen>
+    <dimen name="block_title_text">20sp</dimen>
+</resources>
